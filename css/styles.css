@@ -1,10 +1,105 @@
+html{
+  background: white;
+}
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background-image: url(../img/fond-ecran.svg);
+  padding-top: 5px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header a {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 5px;
+  background: #bda781;
+}
+hr {
+  margin: 10px 10px;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.Logo {
+  width: 130px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px 10px 5px;
+
+}
+ 
+ a {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+ }
+
+ a:hover{
+  color: #6fb8d1 ;
+ }
+
+.section-grey {
+  background: #d9d8d7;
+  padding: 10px; 
+  margin: 40px 0 0 0;
+}
+
+p,
+li {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  padding:  5px 20px;
+}
+
+h1,
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+.bulle-dark {
+  border-radius: 10px;
+  background: #2d2c2c;
+  margin: 35px 20px;
+  padding: 20px;
+  color: white;
+}
+
+.transport{
+  margin: 10px ;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+}
+
+
+
+.logotype img {
+  display: flex;
+  width: 20px;
+  justify-content: space-around;
+  margin: 20px 40px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.logotype {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
